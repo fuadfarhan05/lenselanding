@@ -191,3 +191,18 @@ footer {
   object-fit: cover; /* fills the phone area without stretching */
   border-radius: 30px; /* matches the phone's border curve */
 }
+
+@keyframes glowPulse {
+  0% { box-shadow: 0 0 25px rgba(0, 255, 170, 0.5); }
+  50% { box-shadow: 0 0 40px rgba(0, 255, 170, 0.8); }
+  100% { box-shadow: 0 0 25px rgba(0, 255, 170, 0.5); }
+}
+
+.phone-mockup {
+  animation: glowPulse 2.5s ease-in-out infinite;
+}
+
+.phone-mockup:hover {
+  transform: rotateY(15deg) rotateX(5deg) scale(1.05);
+  box-shadow: 0 0 40px rgba(0, 255, 170, 0.8), 0 0 60px rgba(0, 255, 170, 0.4);
+}
