@@ -206,3 +206,53 @@ footer {
   transform: rotateY(15deg) rotateX(5deg) scale(1.05);
   box-shadow: 0 0 40px rgba(0, 255, 170, 0.8), 0 0 60px rgba(0, 255, 170, 0.4);
 }
+
+.showcase {
+  padding: 5rem 8%;
+  text-align: center;
+  background: rgba(10, 15, 12, 0.8);
+  backdrop-filter: blur(8px);
+}
+
+.showcase h2 {
+  font-size: 2.8rem;
+  margin-bottom: 2.5rem;
+  color: #00ffaa;
+  text-shadow: 0 0 15px rgba(0, 255, 170, 0.5);
+}
+
+.showcase-videos {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.video-card {
+  background: rgba(20, 30, 25, 0.6);
+  border: 5px solid rgba(102, 251, 196, 0.3);
+  border-radius: 18px;
+  overflow: hidden;
+  width: 500px;
+  box-shadow: 0 0 20px rgba(0, 255, 170, 0.2);
+  transition: all 0.3s ease;
+}
+
+.video-card video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.video-card p {
+  color: #9ef1b4;
+  padding: 0.8rem 1rem;
+  font-size: 1rem;
+  text-align: center;
+  text-shadow: 0 0 8px rgba(0, 255, 170, 0.5);
+}
+
+.video-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 30px rgba(0, 255, 170, 0.5);
+}
