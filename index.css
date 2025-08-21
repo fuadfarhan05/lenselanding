@@ -203,7 +203,6 @@ footer {
 }
 
 .phone-mockup:hover {
-  transform: rotateY(15deg) rotateX(5deg) scale(1.05);
   box-shadow: 0 0 40px rgba(0, 255, 170, 0.8), 0 0 60px rgba(0, 255, 170, 0.4);
 }
 
