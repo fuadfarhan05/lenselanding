@@ -81,6 +81,10 @@ body::before {
   box-shadow: 0 0 15px rgba(0, 255, 170, 0.6);
 }
 
+.button2 {
+  color: rgb(144, 238, 191);
+  font-size: 18px;
+}
 
 
 .cta-btn:hover {
@@ -387,4 +391,69 @@ footer {
     font-size: 1rem;
     line-height: 1.6;
   }
+}
+
+
+/* Lense Future Section (with slider) */
+.lense-future {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #0f1a17; /* Changed to match theme */
+}
+
+.lense-future h2 {
+  font-size: 2.5em;
+  color: #9ef1b4; /* Changed to match theme */
+  text-shadow: 0 0 15px rgba(0, 255, 170, 0.6);
+  margin-bottom: 10px;
+}
+
+.lense-future p {
+  font-size: 1.1em;
+  color: #a6fcd2; /* Changed to match theme */
+  margin-bottom: 30px;
+}
+
+.slider-container {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: 20px auto;
+  border-radius: 12px;
+  overflow: hidden;
+  user-select: none;
+  border-color: #78f0a4;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 20px;
+}
+
+.slider-container img {
+  display: block;
+  width: 300px;
+  height: 300px;
+  object-fit: cover; /* ensures images cover the box exactly */
+}
+
+.slider-image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%; /* starting position */
+  height: 100%;
+  overflow: hidden;
+}
+
+.slider-handle {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 6px;
+  height: 100%;
+  background: #24b65e;
+  border-radius: 3px;
+  cursor: ew-resize;
+  z-index: 2;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
