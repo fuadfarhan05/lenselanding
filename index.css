@@ -426,7 +426,7 @@ footer {
 /* Mobile responsiveness */
 @media (max-width: 900px) {
   .video {
-    width: 100%;   /* take full width of the screen */
+    width: 90%;   /* take full width of the screen */
     height: auto;  /* keep aspect ratio */
   }
 }
