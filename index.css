@@ -414,6 +414,15 @@ footer {
   margin-bottom: 30px;
 }
 
+.video {
+  width: 800px;
+  border: 5px solid rgba(102, 251, 196, 0.3);
+  border-radius: 18px;
+  box-shadow: 0 0 20px rgba(0, 255, 170, 0.2);
+  transition: all 0.3s ease;
+}
+
+
 .slider-container {
   position: relative;
   width: 300px;
