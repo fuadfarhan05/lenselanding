@@ -420,7 +420,17 @@ footer {
   border-radius: 18px;
   box-shadow: 0 0 20px rgba(0, 255, 170, 0.2);
   transition: all 0.3s ease;
+  max-width: 100%; /* ensures it won’t overflow on small screens */
 }
+
+/* Mobile responsiveness */
+@media (max-width: 900px) {
+  .video {
+    width: 100%;   /* take full width of the screen */
+    height: auto;  /* keep aspect ratio */
+  }
+}
+
 
 
 .slider-container {
